@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroundgreen"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivTranslab"
+        android:layout_gravity="start"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/translablogo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"/>
+    <TextView
+        android:id="@+id/tvLogo"
+        android:textStyle="bold"
+        android:text="Welcome To TRANSLAB!"
+        android:textSize="28sp"
+        android:typeface="serif"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#57132A"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:textSize="20sp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="50dp"
+        android:hint="Name"
+        android:background="@drawable/edit"
+        android:layout_width="match_parent"
+        android:padding="13dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:hint="Email-ID"
+        android:textSize="20sp"
+        android:background="@drawable/edit"
+        android:padding="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etCompany"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:hint="Company"
+        android:background="@drawable/edit"
+        android:padding="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etPhNum"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:padding="13dp"
+        android:background="@drawable/edit"
+        android:inputType="number"
+        android:hint="Ph : +91"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etContact"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/edit"
+        android:padding="13dp"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:hint="Contact Person"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+<!--</LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_marginTop="85dp">
+
+    <Button
+        android:id="@+id/btnDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:onClick="date"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+        android:background="@drawable/button"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Date" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:onClick="submit"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:text="Submit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+</LinearLayout>
